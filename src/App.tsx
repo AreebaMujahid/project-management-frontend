@@ -1,6 +1,6 @@
-import SignUp from "./pages/Signup";
+import SetPassword from "./pages/SetPassword";
 function App() {
-  return <SignUp />;
+  return <SetPassword />;
 }
 
 export default App;
