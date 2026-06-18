@@ -1,6 +1,11 @@
-import Signup2 from "./pages/Signup2";
+import LoginPage from "./pages/login";
+import Dashboard from "./pages/dashboard";
+import AppLayout from "./components/layout/AppLayout";
 function App() {
-  return <Signup2 />;
+  return (
+    <AppLayout>
+      <Dashboard />
+    </AppLayout>
+  );
 }
-
 export default App;
